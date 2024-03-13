@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: rgb(230, 95, 120);
+    --main-transition: all 0.3s;
+}
+
+.hero {
+    background-image: url("../images/header-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+
+    color: var(--main-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    transition: var(--main-transition);
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+.text_parag {
+    max-width: 500px;
+}
+
+h1 {
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    animation: type 10s infinite;
+    padding-left: 12px;
+}
+
+@keyframes type {
+    0% {
+        content: " |";
+    }
+
+    1% {
+        content: "K|";
+    }
+
+    2% {
+        content: "Ke|";
+    }
+
+    3% {
+        content: "Ker|";
+    }
+
+    4% {
+        content: "Kerri|";
+    }
+
+    5% {
+        content: "Kerri D|";
+    }
+
+    6% {
+        content: "Kerri De|";
+    }
+
+    7% {
+        content: "Kerri Deo|";
+    }
+
+    8% {
+        content: "Kerri Deo.|";
+    }
+
+    9% {
+        content: "Kerri De|";
+    }
+
+    10% {
+        content: "Kerri D|";
+    }
+
+    20% {
+        content: "Kerri |";
+    }
+
+    21% {
+        content: "Kerr|";
+    }
+
+    22% {
+        content: "Ker|";
+    }
+
+    23% {
+        content: "Ke|";
+    }
+
+    24% {
+        content: "K|";
+    }
+
+    25% {
+        content: "|";
+    }
+
+    26% {
+        content: "a |";
+    }
+
+    27% {
+        content: "a G|";
+    }
+
+    28% {
+        content: "a G|";
+    }
+
+    29% {
+        content: "a Gr|";
+    }
+
+    30% {
+        content: "a Gra|";
+    }
+
+    31% {
+        content: "a Grap|";
+    }
+
+    32% {
+        content: "a Graph|";
+    }
+
+    33% {
+        content: "a Graphi|";
+    }
+
+    34% {
+        content: "a Graphic |";
+    }
+
+    35% {
+        content: "a Graphic d |";
+    }
+
+    36% {
+        content: "a Graphic de |";
+    }
+
+    37% {
+        content: "a Graphic des |";
+    }
+
+    38% {
+        content: "a Graphic desi |";
+    }
+
+    39% {
+        content: "a Graphic desig |";
+    }
+
+    40% {
+        content: "a Graphic design |";
+    }
+
+    41% {
+        content: "a Graphic designe |";
+    }
+
+    42% {
+        content: "a Graphic designer|";
+    }
+
+    43% {
+        content: "a Graphic designe |";
+    }
+
+    44% {
+        content: "a Graphic design |";
+    }
+
+    45% {
+        content: "a Graphic desig |";
+    }
+
+    46% {
+        content: "a Graphic desi |";
+    }
+
+    47% {
+        content: "a Graphic des |";
+    }
+
+    48% {
+        content: "a Graphic de|";
+    }
+
+    49% {
+        content: "a Graphic d |";
+    }
+
+    50% {
+        content: "a Graphic |";
+    }
+
+    51% {
+        content: "a Graphi |";
+    }
+
+    52% {
+        content: "a Graph |";
+    }
+
+    53% {
+        content: "a Grap |";
+    }
+
+    54% {
+        content: "a Gra |";
+    }
+
+    55% {
+        content: "a Gr |";
+    }
+
+
+    56% {
+        content: "a  |";
+    }
+
+    57% {
+        content: "a P |";
+    }
+
+    58% {
+        content: "a Ph";
+    }
+
+    59% {
+        content: "a Pho";
+    }
+
+    60% {
+        content: "a Phot";
+    }
+
+    61% {
+        content: "a Photo";
+    }
+
+    62% {
+        content: "a Photog";
+    }
+
+    63% {
+        content: "a Photogr";
+    }
+
+    64% {
+        content: "a Photogra";
+    }
+
+    65% {
+        content: "a Photograph";
+    }
+
+    66% {
+        content: "a Photograp";
+    }
+
+    67% {
+        content: "a Photographe";
+    }
+
+    68% {
+        content: "a Photographer";
+    }
+
+    69% {
+        content: "a Photograp";
+    }
+
+    70% {
+        content: "a Photogra";
+    }
+
+    71% {
+        content: "a Photogr";
+    }
+
+    72% {
+        content: "a Photog";
+    }
+
+    73% {
+        content: "a Photo";
+    }
+
+    74% {
+        content: "a Phot";
+    }
+
+    75% {
+        content: "a Pho";
+    }
+
+    76% {
+        content: "a Ph";
+    }
+
+    77% {
+        content: "a P |";
+    }
+
+    78% {
+        content: "a |";
+    }
+
+    79% {
+        content: "|";
+    }
+
+
+}
+
+.hero .btn {
+    border: 1px solid white;
+    transition: var(--main-transition);
+    color: white;
+}
+
+.hero .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.rounded_box {
+    width: 2rem;
+    height: 4rem;
+    border: 1px solid white;
+}
+
+.rounded_box .line {
+    width: 0.3rem;
+    height: 1rem;
+    background-color: white;
+}
+
+.rounded_box {
+    bottom: 10%;
+    animation: moveCircle 0.8s infinite;
+}
+
+@keyframes moveCircle {
+    0% {
+        bottom: 15%;
+    }
+
+    50% {
+        bottom: 12%;
+    }
+
+    100% {
+        bottom: 15%;
+
+    }
+
+}
+
+
+.spinner {
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    top: 20%;
+}
+
+
+/* end of hero section  */
+
+/* start of about  */
+
+.about_name {
+    color: var(--main-color);
+}
+
+.about li {
+    border: 1px solid gray;
+    width: 2.5rem;
+    transition: var(--main-transition);
+}
+
+.about li i {
+    color: rgb(33, 37, 41);
+    transition: var(--main-transition);
+
+}
+
+.about li:hover {
+    border: 1px solid var(--main-color);
+}
+
+.about li:hover i {
+    color: var(--main-color);
+}
+
+/* end of about  */
+
+
+.client {
+    background-color: #f1f1f1;
+}
+
+.fa-quote-left {
+    color: var(--main-color);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+}
+
+/* end of client  */
+
+
+.portfolio .layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: var(--main-transition);
+
+}
+
+.portfolio .inner_img img {
+    transition: var(--main-transition);
+}
+
+.portfolio .inner_img:hover img {
+    transform: scale(1.5);
+}
+
+.portfolio .inner_img:hover .layer {
+    opacity: 1;
+
+}
+
+.portfolio .inner_img .content {
+    bottom: -50%;
+    transition: var(--main-transition);
+
+}
+
+.portfolio .inner_img:hover .content {
+    bottom: 30%;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.portfolio .nav-link {
+    color: black;
+}
+
+/* end of portfolio */
+
+.blog {
+    background-color: #f1f1f1;
+}
+
+/* end of blog  */
+
+
+.fa-mobile-screen-button {
+    color: var(--main-color);
+}
+
+.contact .btn {
+    background-color: var(--main-color);
+    color: white;
+}
+
+/* end of contact  */

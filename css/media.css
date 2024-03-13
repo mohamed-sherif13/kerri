@@ -1,0 +1,17 @@
+@media screen and (max-width:1200px) {
+    .rounded_box{
+        bottom: 0;
+    }
+@keyframes moveCircle {
+    0%{
+        bottom: 4%;
+    }
+    50%{
+        bottom: 2%;
+    }
+    100%{
+        bottom: 4%;
+
+    }
+}
+}
